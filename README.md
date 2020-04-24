@@ -1,18 +1,15 @@
+[![GitHub issues](https://img.shields.io/github/issues/clauries/Star-Gazer)](https://github.com/clauries/Star-Gazer/issues) [![GitHub forks](https://img.shields.io/github/forks/clauries/Star-Gazer)](https://github.com/clauries/Star-Gazer/network) [![GitHub stars](https://img.shields.io/github/stars/clauries/Star-Gazer)](https://github.com/clauries/Star-Gazer/stargazers) [![GitHub license](https://img.shields.io/github/license/clauries/Star-Gazer)](https://github.com/clauries/Star-Gazer/blob/master/LICENSE) [![Twitter](https://img.shields.io/twitter/url?style=social&url=stargazer)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2Fclauries%2FStar-Gazer)
+
 # Star Gazer
-
-2020
-
-### DESCRIPTION
-
-Node based app that allows users to log in and view information about different astrological formations.
+Node based app that allows users to log in and view information about different astronomical formations.
 
 ![Example profile](./public/assets/images/example.png)
 [Deployed Link](https://limitless-atoll-63723.herokuapp.com/)
 
-### INSTALLATION INSTRUCTIONS
 
-    - [Local Setup]
+## Installation Instructions
 
+#### Local Setup
 1. Setup the database by inputting your Mysql Workbench user & password in the config.js file, located in the config file, line 3 & 4.
 2. Either build the database using Workbench or the CLI with the provided schema.sql in the db folder.
 3. Then run the following two commands to migrate the database "npx sequelize-cli db:migrate",then - "npx sequelize-cli db:seed:all".
@@ -21,17 +18,11 @@ Node based app that allows users to log in and view information about different 
 6. If successful, the user will see "connected on localhost:8080," and will be able to click on the link to see the app displayed in their default browser.
 7. The user can then either sign up, or log in to see the main content. The user can also log out after they are done.
 
-   - [Deployed Setup]
+#### Deployed Setup
+Click on the following Heroku link to see the deployed version. https://limitless-atoll-63723.herokuapp.com/
 
-8. Click on the following Heroku link to see the deployed version. https://limitless-atoll-63723.herokuapp.com/
 
-### RESOURCES
-
-- [Star Registry](https://starregistration.net/)
-- [Constellation-Guide](https://www.constellation-guide.com/constellation-names/)
-
-### BUILT WITH
-
+## Tech Utilized
 - [HTML](https://html.com/)
 - [CSS](https://www.w3schools.com/css/)
 - [Javascript](https://www.javascript.com/)
@@ -45,8 +36,7 @@ Node based app that allows users to log in and view information about different 
 - [JawsDB](https://www.jawsdb.com/)
 - [Travis-ci](https://travis-ci.org/)
 
-### NODE MODULES USED
-
+#### Node Modules Used
 - [MySql](https://www.npmjs.com/package/mysql)
 - [Express](https://www.npmjs.com/package/express)
 - [Eslint-config-prettier](https://www.npmjs.com/package/eslint-config-prettier)
@@ -65,16 +55,20 @@ Node based app that allows users to log in and view information about different 
 - [Passport](https://www.npmjs.com/package/passport)
 - [Passport-local](https://www.npmjs.com/search?q=passport-local)
 
-### AUTHOR
 
+## Resources
+- [Star Registry](https://starregistration.net/)
+- [Constellation-Guide](https://www.constellation-guide.com/constellation-names/)
+
+
+## AUTHORS
 - [Elizabeth Garcia-Quilinquin \* Github](https://github.com/equilinquin)
 - [Laurie Schroeder \* Github](https://github.com/clauries)
 - [Jared Bucko \* Github](https://github.com/jaredbucko)
 - [James Nelson \* Github](https://github.com/alpinelife37)
 
-MIT License
-
-Copyright (c) [2020][james nelson, elizabeth garcia-quilinquin, jared bucko, laurie schroeder]
+## MIT License
+Copyright (c) [2020][James Nelson, Elizabeth Garcia-quilinquin, Jared Bucko, Laurie Schroeder]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
