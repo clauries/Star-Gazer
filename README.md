@@ -56,7 +56,7 @@ Click on the following Heroku link to see the deployed version. https://limitles
 - [Passport-local](https://www.npmjs.com/search?q=passport-local)
 
 
-## Resources
+## Credits
 - [Star Registry](https://starregistration.net/)
 - [Constellation-Guide](https://www.constellation-guide.com/constellation-names/)
 
